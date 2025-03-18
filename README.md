@@ -29,10 +29,10 @@ gunzip ab_test_ref.tar.gz
 **Windows:**
 ```
 cd bases
-curl -C - -O "https://data-architect-test-source.s3-sa-east-1.amazonaws.com/order.json.gz"
-curl -C - -O "https://data-architect-test-source.s3-sa-east-1.amazonaws.com/consumer.csv.gz"
-curl -C - -O "https://data-architect-test-source.s3-sa-east-1.amazonaws.com/restaurant.csv.gz"
-curl -C - -O "https://data-architect-test-source.s3-sa-east-1.amazonaws.com/ab_test_ref.tar.gz"
+curl.exe -C - -O "https://data-architect-test-source.s3-sa-east-1.amazonaws.com/order.json.gz"
+curl.exe -C - -O "https://data-architect-test-source.s3-sa-east-1.amazonaws.com/consumer.csv.gz"
+curl.exe -C - -O "https://data-architect-test-source.s3-sa-east-1.amazonaws.com/restaurant.csv.gz"
+curl.exe -C - -O "https://data-architect-test-source.s3-sa-east-1.amazonaws.com/ab_test_ref.tar.gz"
 tar -xvf order.json.gz
 tar -xvf consumer.csv.gz
 tar -xvf restaurant.csv.gz
